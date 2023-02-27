@@ -87,3 +87,20 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2023-02-23 12:24:53,313 :INFO :test_e2e :Entering country name as ind
 2023-02-23 12:25:03,785 :INFO :test_e2e :text received from application is×
 Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-02-23 17:47:25,814 :INFO :test_formsubmission :firstname is vinayak kamati
+2023-02-23 17:47:31,375 :INFO :test_formsubmission :firstname is anshika shetty
+2023-02-23 17:47:31,375 :INFO :test_formsubmission :firstname is anshika shetty
+2023-02-23 17:48:56,971 :INFO :test_formsubmission :firstname is vinayak kamati
+2023-02-23 17:49:08,357 :INFO :test_formsubmission :firstname is anshika shetty
+2023-02-23 17:49:08,357 :INFO :test_formsubmission :firstname is anshika shetty
+2023-02-23 17:52:00,334 :INFO :test_formsubmission :firstname is vinayak kamati
+2023-02-23 17:52:11,590 :INFO :test_formsubmission :firstname is anshika shetty
+2023-02-23 17:52:11,590 :INFO :test_formsubmission :firstname is anshika shetty
+2023-02-24 21:43:57,258 :INFO :test_e2e :getting all the product title
+2023-02-24 21:43:57,937 :INFO :test_e2e :iphone X
+2023-02-24 21:43:57,956 :INFO :test_e2e :Samsung Note 8
+2023-02-24 21:43:57,993 :INFO :test_e2e :Nokia Edge
+2023-02-24 21:43:58,014 :INFO :test_e2e :Blackberry
+2023-02-24 21:43:59,490 :INFO :test_e2e :Entering country name as ind
+2023-02-24 21:44:07,435 :INFO :test_e2e :text received from application is×
+Success! Thank you! Your order will be delivered in next few weeks :-).

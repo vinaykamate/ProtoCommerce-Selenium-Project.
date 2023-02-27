@@ -62,7 +62,6 @@ class Homepage:
     def Formalerttext(self):
         return self.driver.find_element(*Homepage.alerttext)
 
-
     def ShopItems(self):
        self.driver.find_element(*Homepage.shop).click()
        checkoutpage = CheckOutPage(self.driver)
