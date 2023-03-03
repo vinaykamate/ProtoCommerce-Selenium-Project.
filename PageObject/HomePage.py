@@ -1,39 +1,21 @@
 from selenium.webdriver.common.by import By
 from PageObject.CheckoutPage import CheckOutPage
 
-
 class Homepage:
+
+    name = (By.XPATH, "(//input[@name='name'])[1]")
+    email = (By.XPATH, "//input[@name='email']")
+    password = (By.CSS_SELECTOR, "#exampleInputPassword1")
+    checkbox = (By.XPATH, "//input[@type='checkbox']")
+    dropdown = (By.CSS_SELECTOR, "#exampleFormControlSelect1")
+    radiobutton = (By.ID, "inlineRadio1")
+    date = (By.XPATH, "//input[@name='bday']")
+    submitbutton = (By.CSS_SELECTOR, ".btn.btn-success")
+    alerttext = (By.CSS_SELECTOR, ".alert.alert-success.alert-dismissible")
+    shop = (By.XPATH, "//*[contains(@href,'shop')]")
+
     def __init__(self, driver):
         self.driver = driver
-
-    # driver.find_element(By.CSS_SELECTOR, ".form-control.ng-untouched.ng-pristine.ng-invalid").send_keys("vinayak")
-    name = (By.XPATH, "(//input[@name='name'])[1]")
-
-    #driver.find_element(By.XPATH, "//input[@name='email']")
-    email = (By.XPATH, "//input[@name='email']")
-
-    #driver.find_element(By.CSS_SELECTOR, "#exampleInputPassword1").send_keys("vinay9000")
-    password = (By.CSS_SELECTOR, "#exampleInputPassword1")
-
-    #driver.find_element(By.XPATH, "//input[@type='checkbox']").
-    checkbox = (By.XPATH, "//input[@type='checkbox']")
-
-    # driver.find_element(By.CSS_SELECTOR, "#exampleFormControlSelect1")
-    dropdown = (By.CSS_SELECTOR, "#exampleFormControlSelect1")
-
-    #driver.find_element(By.ID, "inlineRadio1")
-    radiobutton = (By.ID, "inlineRadio1")
-
-    #driver.find_element(By.XPATH, "//input[@name='bday']")
-    date = (By.XPATH, "//input[@name='bday']")
-
-    #driver.find_element(By.CSS_SELECTOR, ".btn.btn-success")
-    submitbutton = (By.CSS_SELECTOR, ".btn.btn-success")
-
-    #driver.find_element(By.CSS_SELECTOR, ".alert.alert-success.alert-dismissible")
-    alerttext = (By.CSS_SELECTOR, ".alert.alert-success.alert-dismissible")
-
-    shop = (By.XPATH, "//*[contains(@href,'shop')]")
 
     def Formname(self):
         return self.driver.find_element(*Homepage.name)
